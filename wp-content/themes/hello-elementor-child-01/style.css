@@ -1,0 +1,36 @@
+/*
+Theme Name: Lock's Dynamic Logos
+Theme URI:
+Description: Child theme especially created for the Dynamic Logos site.
+Author: Lock
+Template: hello-elementor
+Version: 1.0.0
+Text Domain: locks-dynamic-logos
+*/
+
+
+.site-title {
+    display: none;
+}
+
+#LDL-header-text {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(2500px);
+}
+
+/* Siteclicks - hide page title */
+body.page-id-29 .page-header {
+    display: none !important;
+}
+
+/* Siteclicks - header over video */
+body.page-id-29 #site-header {
+    
+    display: none; !important
+}
+
+.copyright {
+    display: none !important;
+}
+
