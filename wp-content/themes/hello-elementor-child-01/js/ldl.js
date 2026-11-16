@@ -1,3 +1,6 @@
+
+if (document.querySelector("#logo-FB-container-2")) {
+
 gsap.from(
   [
     "#letter-s",
@@ -137,3 +140,5 @@ gsap.from(
   },
 );
 
+
+}
